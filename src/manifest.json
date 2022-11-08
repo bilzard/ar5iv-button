@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Ar5iv Button",
+    "version": "1.0",
+    "description": "Insert ar5iv link button into arXiv.",
+    "content_scripts": [
+        {
+            "js": [
+                "scripts/content.js"
+            ],
+            "css": [
+                "styles/content.css"
+            ],
+            "matches": [
+                "https://arxiv.org/*"
+            ]
+        }
+    ]
+}

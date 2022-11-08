@@ -1,0 +1,12 @@
+button#ar5iv_button {
+    background-color: antiquewhite;
+    color: gray;
+    font-weight: 400;
+    border-radius: 8px;
+    margin: 5px;
+    border: none;
+}
+
+button#ar5iv_button:hover {
+    box-shadow: 2px 2px 4px #000000;
+}
