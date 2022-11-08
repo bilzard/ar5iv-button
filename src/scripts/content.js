@@ -1,5 +1,5 @@
 const url = document.URL
-const ar5ivUrl = url.replace("arxiv.org", "ar5iv.org");
+const ar5ivUrl = url.replace("arxiv.org/abs", "ar5iv.labs.arxiv.org/html");
 
 const button = document.createElement("button");
 button.id = "ar5iv_button";
